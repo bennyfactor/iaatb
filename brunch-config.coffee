@@ -7,3 +7,6 @@ exports.config =
       joinTo: 'app.css'
     templates:
       joinTo: 'app.js'
+  plugins:
+      sass:
+        debug: 'comments'
