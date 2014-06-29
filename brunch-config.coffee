@@ -1,7 +1,7 @@
 exports.config =
   # See http://brunch.io/#documentation for docs.
   paths:
-    ignored: '^vendor\/(?!assets)'
+    ignored: /^vendor\/(?!assets)/
   files:
     javascripts:
       joinTo: 'app.js'
