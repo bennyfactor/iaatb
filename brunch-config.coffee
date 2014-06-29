@@ -1,5 +1,7 @@
 exports.config =
   # See http://brunch.io/#documentation for docs.
+  paths:
+    ignored: '^vendor\/(?!assets)'
   files:
     javascripts:
       joinTo: 'app.js'
@@ -10,3 +12,5 @@ exports.config =
   plugins:
       sass:
         debug: 'comments'
+	mode: 'ruby'
+	gem_home: './vendor/gems'
