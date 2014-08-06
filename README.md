@@ -10,7 +10,7 @@ This is HTML5 application, built with [Brunch](http://brunch.io).
     * [Node.js](http://nodejs.org): `brew install node` on OS X
     * [Brunch](http://brunch.io): `npm install -g brunch`
     * [Bower](http://bower.io): `npm install -g bower`
-    * Brunch plugins and Bower dependencies: `npm install & bower install`.
+    * Brunch plugins and Bower dependencies: `npm install && bower install`.
     * Sass 3.3 and Compass (via ruby): `bundle install --local`.
 * Run:
     * `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
