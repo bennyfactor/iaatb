@@ -6,7 +6,7 @@ exports.config =
     javascripts:
       joinTo: 'app.js'
     stylesheets:
-      joinTo: 'app.css'
+      joinTo: 'stylesheets/screen.css'
     templates:
       joinTo: 'app.js'
   plugins:
